@@ -1,0 +1,27 @@
+.menu-list, .submenu-list {
+	background-color: #ffffff;
+}
+
+.menu-list > li {
+	background-color: #f8f9fa;
+}
+
+.menu-list > li:hover {
+	background-color: #f8f9fa;
+}
+
+.menu-list > li.active {
+	background-color: #f8f9fa;
+}
+
+.submenu-list > li {
+	background-color: #ffffff;
+}
+
+.submenu-list > li:hover {
+	background-color: #f8f9fa;
+}
+
+.submenu-list > li.active {
+	background-color: #f8f9fa;
+}
