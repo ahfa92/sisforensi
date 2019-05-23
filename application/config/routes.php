@@ -53,12 +53,22 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['api'] = 'Ajax';
+
 $route['admin/login']['get'] = 'admin/Admin_Login';
 $route['admin/login']['post'] = 'admin/Admin_Login';
 $route['admin/logout']['get'] = 'admin/Admin_Login/logout';
 $route['admin'] = 'admin/Admin_Dashboard';
+$route['admin/tahunajar'] = 'admin/Admin_EduYear';
+$route['admin/periodeajar'] = 'admin/Admin_EduPeriod';
 $route['admin/kelas'] = 'admin/Admin_Class';
 $route['admin/katmatpel'] = 'admin/Admin_LessonCat';
 $route['admin/matpel'] = 'admin/Admin_Lesson';
 $route['admin/liburan'] = 'admin/Admin_Holiday';
 $route['admin/guru'] = 'admin/Admin_Teacher';
+$route['admin/murid'] = 'admin/Admin_Student';
+$route['admin/periode'] = 'admin/Admin_Period';
+$route['admin/kelasmurid'] = 'admin/Admin_Assignment';
+$route['admin/jadwal'] = 'admin/Admin_Course';
+$route['admin/timetable'] = 'admin/Admin_Schedule';
+$route['admin/presensimurid'] = 'admin/Admin_Presence';
